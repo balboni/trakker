@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  owner: MyString
+  sponsor: MyString
+  date_started: 2015-07-19
+  date_completed: 2015-07-19
+  comment: MyText
+
+two:
+  name: MyString
+  owner: MyString
+  sponsor: MyString
+  date_started: 2015-07-19
+  date_completed: 2015-07-19
+  comment: MyText

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @project.name %>
+</p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @project.owner %>
+</p>
+
+<p>
+  <strong>Sponsor:</strong>
+  <%= @project.sponsor %>
+</p>
+
+<p>
+  <strong>Date started:</strong>
+  <%= @project.date_started %>
+</p>
+
+<p>
+  <strong>Date completed:</strong>
+  <%= @project.date_completed %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @project.comment %>
+</p>
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>
