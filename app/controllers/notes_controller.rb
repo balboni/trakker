@@ -17,13 +17,13 @@ class NotesController < ApplicationController
 	end
 
 	private
+
 	def load_project
 		@project = Project.find(params[:project_id])
 	end
 
-	def project_params
-		params.require(:subject).permit(:body)
+	def note_params
+		params.require(:note).permit(:subject, :body)
 	end
-
 
 end
